@@ -1,0 +1,91 @@
+form{
+        border: 10px #e9e9e9;
+        width: 270px;
+        height: 270px;
+        padding: 14px 28px;
+        outline-style: groove;
+        outline-color: #e9e9e9;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        position: sticky;
+}
+
+input{
+	transition: width 2s , height 2s;
+}
+
+input.w{
+	width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input:active{
+    background: grey;
+}
+
+input:hover{
+    box-shadow:0 0 6px fuchsia;
+    background-image: linear-gradient(to bottom, white , orange);
+
+}
+
+img.l{
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+ position: sticky;
+ height: 150px;
+}
+
+.p{
+    padding-bottom: 22px;
+}
+
+.padd{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+button:hover.c{
+    background-image:linear-gradient(to bottom, white, orange);
+    opacity: 5;
+    border-radius: 10px;
+    box-shadow: 0 0 6px;
+}
+button.c{
+    background-color: orange;
+    opacity: 0.3;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:active{
+    height: 25px;
+    box-shadow: 0 0 50px grey;
+}
+
+img.ll{
+    padding-top: 22px;
+    padding-left: 300px;
+    width: 950px;
+}
+
+
+button:hover.ff{
+    background-image:linear-gradient(to bottom, white, orange);
+    opacity: 5;
+    border-radius: 10px;
+    box-shadow: 0 0 6px;
+}
+.ff{
+    margin-left: 620px;
+    width: 300px;
+    height: 31px;
+    margin-top: 20px;
+    opacity: 0.5;
+
+}
