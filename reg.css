@@ -36,7 +36,6 @@ samp{
 
 
 img.line{
-	height: ;
 	width: 80%;
 	padding-left: 30px;
 	padding-top: 10px;
@@ -78,18 +77,11 @@ a:hover{
 	height: 80px;
 }
 
-
 .padd{
 	padding-top: 2px;
 	padding-bottom: 5px;
 }
 
-
 input.mn{
 	width: 73%;
-}
-
-body.tlt{
-	background-image: url(corner.jpg);
-	background-repeat: no-repeat;
 }
