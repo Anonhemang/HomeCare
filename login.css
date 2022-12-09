@@ -75,13 +75,13 @@ img.ll{
 }
 
 
-button:hover.ff{
+button:hover.link{
     background-image:linear-gradient(to bottom, white, orange);
     opacity: 5;
     border-radius: 10px;
     box-shadow: 0 0 6px;
 }
-.ff{
+.link{
     margin-left: 620px;
     width: 300px;
     height: 31px;
