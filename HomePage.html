@@ -8,17 +8,90 @@
     <title>Home Page</title>
 </head>
 <body>
-   <div class="topnav">
-    <a href="#">Home</a>
-    <a href="#">How It Works</a>
-    <a href="#">What We Offer</a>
-    <a href="#">Why Us</a>
-    <a href="#">Trust Factor</a>
-    <a href="#">Our Charges</a>
-    <a href="#">Contact Us</a>
-   </div>
+    <div class="bg">
+        <div class="topnav">
+            <a href="#">Home</a>
+            <a href="#">How It Works</a>
+            <a href="#">What We Offer</a>
+            <a href="#">Why Us</a>
+            <a href="#">Trust Factor</a>
+            <a href="#">Our Charges</a>
+            <a href="#">Contact Us</a>
+            <a href="#" id="right">Login</a>
+        </div>
 
-   <img src="Home1.jpg">
+
+          <img src="Home1.jpg" id="image">
+
+            <script type="text/javascript">
+
+                let image = document.getElementById('image');
+                let images = ['Home2.jpg', 'Home3.jpg', 'Home4.jpg']
+                setInterval(function(){
+                    let random = Math.floor(Math.random() * 3);
+                    image.src = images[random];
+                }, 3000);
+           </script>
+
+    </div>
+
+
+    <table>
+        <th id="maid">
+            <a href="#"><img src="maid.jpeg" title="Book Me"></a>
+        </th>
+
+        <th id="security">
+            <a href="#"><img src="security.jpeg" title="Book Me"></a>
+        </th>
+
+        <th id="cleaner">
+            <a href="#"><img src="cleaner.jpg" title="Book Me "></a>
+        </th>
+    </table>
+
+
+
+   <div class="how">
+        <div class="global">
+            <h3>How It Works</h3>
+            <div class="hiw">
+                <i>
+                    <img src="search.png" style="width:100px;height: 80px; display:inline-block;">
+                </i>
+                <big>Search</big>
+                <p>
+                    Use our simple search and tell us what you require
+                </p>
+            </div>
+        
+
+
    
+        
+            <div class="hiw">
+                <i>
+                    <img src="shortlist.png" style="width: 80px;height: 80px; display:inline-block;">
+                </i>
+                <big>Shortlist</big>
+                <p>
+                    View the complete profile of the hundreds of available and shortlist as per your preference 
+                </p>
+            </div>
+
+            <div class="hiw">
+                <i>
+                    <img src="meet.jpg" style="width: 80px;height: 80px; display:inline-block;">
+                </i>
+                <big>Meet & Final</big>
+                <p>
+                    Talk to them on the phone or meet personally. Select and pay only after the joining 
+                </p>
+            </div>
+ 
+
+        </div>
+    </div>   
+
 </body>
 </html>
