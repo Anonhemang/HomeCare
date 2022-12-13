@@ -124,3 +124,7 @@ p{
     font-size: 14px;
     line-height: 50px;
 }
+
+button{
+    opacity: 1;
+}
