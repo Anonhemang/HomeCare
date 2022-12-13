@@ -27,8 +27,12 @@ input:active{
 
 input:hover{
     box-shadow:0 0 6px fuchsia;
-    background-image: linear-gradient(to bottom, white , orange);
+    background-image: linear-gradient(to bottom, white , #00bbe1);
 
+}
+
+input:focus{
+    background-color: #00bbe1;
 }
 
 img.l{
@@ -50,13 +54,13 @@ img.l{
 
 
 button:hover.c{
-    background-image:linear-gradient(to bottom, white, orange);
+    background-image:linear-gradient(to bottom, white, #00bbe1);
     opacity: 5;
     border-radius: 10px;
     box-shadow: 0 0 6px;
 }
 button.c{
-    background-color: orange;
+    background-color: #00bbe1;
     opacity: 0.3;
     margin-top: 20px;
     height: 30px;
@@ -76,7 +80,7 @@ img.ll{
 
 
 button:hover.link{
-    background-image:linear-gradient(to bottom, white, orange);
+    background-image:linear-gradient(to bottom, white, #00bbe1);
     opacity: 5;
     border-radius: 10px;
     box-shadow: 0 0 6px;

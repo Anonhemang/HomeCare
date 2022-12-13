@@ -2,12 +2,15 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .topnav{
     overflow: hidden;
     background-color: #00bbe1;
     height: 35px;
     overflow: visible;
-    
 }
 
 .topnav a{
@@ -41,7 +44,9 @@
 #right:hover{
     opacity: 1;
     height: 23px;
-    box-shadow: 0 5px 10px 0 black;
+    box-shadow: 0 30px 40px 0 black;
+    background-color: rgb(0, 0, 0);
+    color: #00bbe1;
 }
 
 img{
@@ -125,6 +130,13 @@ p{
     line-height: 50px;
 }
 
-button{
-    opacity: 1;
+a.b{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #00bbe1;
+    border-radius: 20px;
+    height: 40px;
+    width: 85px;
 }
