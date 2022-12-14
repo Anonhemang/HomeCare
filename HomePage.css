@@ -2,9 +2,6 @@
     margin: 0;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 
 .topnav{
     overflow: hidden;
@@ -77,9 +74,6 @@ img{
     width: 34%
 }
 
-th img{
-    height: 500px;
-}
 
 h1{
     padding-top: 50px;
@@ -139,4 +133,24 @@ button:hover{
     border-radius: 20px;
     height: 40px;
     width: 85px;
+}
+
+table{
+    margin-left: 18%;
+    border-collapse: collapse;
+    width: auto;
+
+}
+td{
+    padding: 25px;
+    background-color: aliceblue;
+    line-height: 30px;
+}
+th{
+    padding: 10px;
+    background-color: #00bbe1;
+    width: 50%;
+}
+h3.diff{
+    color: aliceblue;
 }
