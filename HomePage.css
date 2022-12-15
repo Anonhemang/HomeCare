@@ -10,6 +10,7 @@
     overflow: visible;
 }
 
+
 .topnav a{
     float: left;
     display: block;
@@ -19,10 +20,12 @@
     text-decoration: none;
 }
 
+
 .topnav a:hover{
     background-color: white;
     color: black;
 }
+
 
 #right{
     float: right;
@@ -38,6 +41,7 @@
     z-index: 1;
 }
 
+
 #right:hover{
     opacity: 1;
     height: 23px;
@@ -45,6 +49,7 @@
     background-color: rgb(0, 0, 0);
     color: #00bbe1;
 }
+
 
 img{
     width: 100%;
@@ -54,6 +59,7 @@ img{
     overflow: visible;
 
 }
+
 
 .bg{
     background-image: url(bg.jpg);
@@ -65,9 +71,11 @@ img{
     width: 34%;
 }
 
+
 #security{
     width: 34%
 }
+
 
 #cleaner{
     
@@ -80,6 +88,7 @@ h1{
     text-align: center;
 }
 
+
 img.search{
     width: 70px;
     height: 70px;
@@ -88,6 +97,7 @@ img.search{
     
 }
 
+
 .how{
     
     width: 100%;
@@ -95,15 +105,19 @@ img.search{
     padding: 20px 0;
     display: inline-block;
 }
+
+
 .global{
     margin: auto;
 }
+
 
 h3{
     text-align: center;
     font-size: 35px;
     margin-bottom: 30px;
 }
+
 
 .hiw{
     display: inline-block;
@@ -114,19 +128,24 @@ h3{
     line-height: 30px;
 }
 
+
 big{
     display: block;
     font-size: 22px;
     margin: 15px 0;
 }
+
+
 p{
     font-size: 14px;
     line-height: 50px;
 }
 
+
 a.b{
     text-decoration: none;
 }
+
 
 button:hover{
     background-color: #00bbe1;
@@ -135,26 +154,37 @@ button:hover{
     width: 85px;
 }
 
+
 table{
     margin-left: 18%;
     border-collapse: collapse;
     width: auto;
 
 }
+
+
+
 td{
     padding: 25px;
     background-color: aliceblue;
     line-height: 30px;
 }
+
+
+
 th{
     padding: 10px;
     background-color: #00bbe1;
     width: 50%;
 }
+
+
+
 h3.diff{
     color: aliceblue;
     padding-top: 15px;
 }
+
 
 .line{
     display: inline-block;
@@ -163,7 +193,10 @@ h3.diff{
     padding-left: 100px;
 }
 
+
 #trustbg{
     background-color: #00bbe1;
     padding: 50px;
 }
+
+
