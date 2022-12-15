@@ -158,4 +158,17 @@ th{
 }
 h3.diff{
     color: aliceblue;
+    padding-top: 15px;
+}
+
+.line{
+    display: inline-block;
+    text-align:center;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+#trustbg{
+    background-color: #00bbe1;
+    padding: 50px;
 }
