@@ -1,3 +1,10 @@
+body{
+    background-image:url(login_bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 form{
         border: 10px #e9e9e9;
         width: 270px;
