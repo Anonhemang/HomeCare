@@ -102,9 +102,29 @@ img.search{
     
     width: 100%;
     margin: 10px 0;
-    padding: 45px 0 0 0;
+    padding: 90px 0 40px 0;
     display: inline-block;
 }
+
+.hiw0{
+
+    width: 100%;
+    margin: 10px 0;
+    padding: 90px 0 90px 0;
+    display: inline-block;
+
+}
+
+
+.offer{
+    
+    width: 100%;
+    margin: 10px 0;
+    padding: 150px 0 150px 0;
+    display: inline-block;
+    background-color: #00bbe1;
+}
+
 
 
 .global{
@@ -147,8 +167,8 @@ a.b{
 }
 
 
-button:hover{
-    background-color: #00bbe1;
+button:hover.wwo{
+    background-color: #2491a6;
     border-radius: 20px;
     height: 40px;
     width: 85px;
@@ -156,7 +176,7 @@ button:hover{
 
 
 table{
-    margin-left: 18%;
+    margin-left: 12%;
     border-collapse: collapse;
     width: auto;
 
@@ -165,7 +185,7 @@ table{
 
 
 td{
-    padding: 25px;
+    padding: 47px;
     background-color: aliceblue;
     line-height: 30px;
 }
@@ -177,7 +197,6 @@ th{
     background-color: #00bbe1;
     width: 50%;
 }
-
 
 
 h3.diff{
@@ -197,6 +216,27 @@ h3.diff{
 #trustbg{
     background-color: #00bbe1;
     padding: 50px;
+    height: 670px;
 }
 
 
+.contact{
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: palegoldenrod;
+}
+
+
+button.c{
+    
+    color: #00bbe1;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: large;
+}
+
+
+button:hover{
+    background-color: #00bbe1;
+    color: black;
+}
