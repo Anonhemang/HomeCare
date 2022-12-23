@@ -1,0 +1,82 @@
+body{
+    background-image: url(map1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+table{
+    padding: 10% 0;
+}
+
+
+input{
+    width: 500px;
+    height: 30px;
+    background-color: dimgray;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 0 0 0 20px;
+}
+textarea{
+    width: 500px;
+    height: 60px;
+    background-color: dimgray;
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 6px 0 0 20px;
+}
+
+
+input.submit{
+    margin-left: 180px;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: dimgray;
+    color: aliceblue;
+    text-align: center;
+    padding: 0 0 0 0;
+}
+input:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+input:focus{
+    background-color: rgb(6, 6, 6);
+    color: white;
+    box-shadow: 10px 10px 15px darkgray;
+}
+
+
+textarea:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+textarea:focus{
+    background-color: rgb(6, 6, 6);
+    color: white;
+    box-shadow: 10px 10px 15px darkgray;
+}
+
+
+img{
+    height: 35px;
+    width: auto;
+    padding: 30px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
