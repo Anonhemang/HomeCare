@@ -55,6 +55,7 @@ input:focus{
     background-color: rgb(6, 6, 6);
     color: white;
     box-shadow: 10px 10px 15px darkgray;
+    outline: none;
 }
 
 
@@ -68,6 +69,7 @@ textarea:focus{
     background-color: rgb(6, 6, 6);
     color: white;
     box-shadow: 10px 10px 15px darkgray;
+    outline: none;
 }
 
 

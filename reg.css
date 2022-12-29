@@ -96,4 +96,5 @@ input:focus{
 	background-color: #00d5ff;
 	padding-left: 10px;
 	border-radius: 10px;
+	outline: none;
 }

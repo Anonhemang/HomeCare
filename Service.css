@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+
+
+.nav{
+    height: 40px;
+    width: 100%;
+    background-color: #00bbe1;
+    overflow: hidden;
+    
+}
+
+
+a{
+    height: 35px;
+    text-decoration: none;
+    padding: 5px 50px;
+    text-align: center;
+    display: block;
+    float: left;
+    font-size: larger;
+    color: azure;
+}
+
+
+a:hover{
+    background-color:whitesmoke;
+    color:black;
+}
+
+
+.logo{
+    height: 20px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+}
+
+
+.select_services{
+    height: auto;
+    width: 100%;
+}
+
+
+.designTop{
+    height: 50px;
+    width: 500px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.designBottom{
+    height: 50px;
+    width: 500px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Castellar;
+
+}
+
+
+.maid{
+    height: auto;
+    width: 100%;
+
+}
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Castellar;
+}
+
+
+.head_line{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 400px;   
+}
+
+
+.maid_img{
+    overflow: auto;
+    height: 300px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    opacity: 0.5;
+    position: absolute;
+}
+
+
+.maid_img_scroller{
+    height: 200px;
+    width: auto;
+    padding: 10px;
+    
+    
+}
+
+
+.box{
+    height: 220px;
+    width: 330px;
+    box-shadow: 3px 3px 5px ;
+    padding: 10px;
+    position: relative;
+    display: inline;
+    
+}
